@@ -1,0 +1,53 @@
+.products-page {
+  padding: 2rem 0;
+  min-height: calc(100vh - 80px);
+}
+
+.products-page h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-section {
+  margin-bottom: 2rem;
+}
+
+.products-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 2rem;
+}
+
+.sidebar {
+  min-height: 400px;
+}
+
+.products-main {
+  min-height: 400px;
+}
+
+.products-header {
+  margin-bottom: 1.5rem;
+}
+
+.products-count {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.no-products {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.no-products p {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 968px) {
+  .products-layout {
+    grid-template-columns: 1fr;
+  }
+}

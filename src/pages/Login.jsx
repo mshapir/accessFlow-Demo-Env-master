@@ -50,7 +50,7 @@ const Login = () => {
 
     try {
       login(formData.email, formData.password);
-      navigate('/');
+      navigate('/dashboard');
     } catch (error) {
       setServerError(error.message);
     }

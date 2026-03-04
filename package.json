@@ -19,11 +19,15 @@
     "destination": "dist",
     "include": [
       "/",
-      "/products",
       "/login",
       "/register",
+      "/about",
+      "/products",
       "/cart",
-      "/about"
+      "/dashboard",
+      "/profile",
+      "/checkout",
+      "/checkout-success"
     ],
     "skipThirdPartyRequests": true,
     "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]

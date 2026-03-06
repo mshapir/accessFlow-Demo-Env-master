@@ -102,20 +102,6 @@ const Login = () => {
             <p><strong>Demo Account:</strong></p>
             <p>Email: demo@accessflow.com &nbsp;·&nbsp; Password: Demo1234!</p>
           </div>
-
-          {/* Page index — lets crawlers discover all site pages during init phase */}
-          <nav className="login-page-index" aria-label="Available pages after login">
-            <p className="page-index-title">Pages available after sign in:</p>
-            <ul className="page-index-list">
-              <li><a href="/">Home</a></li>
-              <li><a href="/dashboard">Dashboard</a></li>
-              <li><a href="/products">Products</a></li>
-              <li><a href="/cart">Cart</a></li>
-              <li><a href="/profile">Profile</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/checkout">Checkout</a></li>
-            </ul>
-          </nav>
         </div>
       </div>
     </div>

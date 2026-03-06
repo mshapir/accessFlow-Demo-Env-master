@@ -36,18 +36,14 @@ const Header = () => {
               <img src="https://via.placeholder.com/20/007bff/007bff" alt="" role="presentation" />
               Click
             </a>
-            {user && (
-              <a href="/dashboard" onClick={(e) => { e.preventDefault(); navigate('/dashboard'); }} style={{cursor: 'pointer', color: '#007bff'}}>
-                <img src="https://via.placeholder.com/20/007bff/007bff" alt="profile picture" />
-                Dashboard
-              </a>
-            )}
-            {user && (
-              <a href="/profile" onClick={(e) => { e.preventDefault(); navigate('/profile'); }} style={{cursor: 'pointer', color: '#007bff'}}>
-                <img src="https://via.placeholder.com/20/007bff/007bff" alt="profile picture" />
-                Link
-              </a>
-            )}
+            <a href="/dashboard" onClick={(e) => { e.preventDefault(); navigate('/dashboard'); }} style={{cursor: 'pointer', color: '#007bff'}}>
+              <img src="https://via.placeholder.com/20/007bff/007bff" alt="profile picture" />
+              Dashboard
+            </a>
+            <a href="/profile" onClick={(e) => { e.preventDefault(); navigate('/profile'); }} style={{cursor: 'pointer', color: '#007bff'}}>
+              <img src="https://via.placeholder.com/20/007bff/007bff" alt="profile picture" />
+              Link
+            </a>
           </div>
           
           <div className="header-actions">
